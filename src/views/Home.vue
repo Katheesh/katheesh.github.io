@@ -11,16 +11,16 @@
 							<h3>Hey There !</h3>
 							<h1 class="text-uppercase">I am KATHEESH</h1>
 							<h5 class="text-uppercase">Software Engineer & Entrepreneur</h5><br>
-							<h6><strong>❤️ Efficiency consists in a resolute mind.</strong></h6> <br>
-							<github-button href="https://github.com/katheesh" data-size="large" data-show-count="true" aria-label="Follow @katheesh on GitHub"> </github-button>
-							<div style="margin-top: 30px; margin-bottom: 20px;">
-								<a target="_blank" href="https://opshit.github.io/">Opshit Framework Creator <img alt="npm" src="https://img.shields.io/npm/dt/opshit"></a>
+							<h6><strong>❤️ Efficiency consists in a resolute mind.</strong></h6>
+							<div style="margin-top: 20px;">
+								<a target="_blank" href="https://opshit.github.io/"><img alt="npm" src="https://img.shields.io/npm/dt/opshit"> Opshit Framework Creator</a>
 								<br>
 							    <a target="_blank" href="https://www.npmjs.com/package/vue-mailer">
-							    	 vue-mailer Package Collaborator <img alt="npm" src="https://img.shields.io/npm/v/vue-mailer">
+							    	 <img alt="npm" src="https://img.shields.io/npm/dt/vue-mailer"> npm mailer Package Collaborator 
+							     </a><br>
+							     <a target="_blank" href="https://packagist.org/packages/katheesh/visitorinfo">
+							     	<img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/katheesh/visitorinfo"> VisitorInfo Composer Package Collaborator
 							     </a>
-
-
 						    </div>
 
 							<div class="social_icons my-5" style="padding: auto;">
@@ -39,6 +39,7 @@
 								<a title="Dev Blog" target="_blank" href="https://dev.to/katheesh">
 									<img src="img/icon/dev.png">
 								</a>
+								
 								<!-- <a title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/katheeskumar">
 									<img src="img/icon/linkedin.png">
 								</a>
@@ -64,7 +65,7 @@
 								<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/05b409efb6f95b34435fe13903720bf3fba39679/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4d7953514c2d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d6d7973716c"><img src="https://camo.githubusercontent.com/05b409efb6f95b34435fe13903720bf3fba39679/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4d7953514c2d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d6d7973716c" alt="MySQL" data-canonical-src="https://img.shields.io/badge/-MySQL-black?style=flat-square&amp;logo=mysql" style="max-width:100%;"></a>
 								<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/24e020ff7d4637e37337e3670a1145ae91688b15/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d506f737467726553514c2d3333363739313f7374796c653d666c61742d737175617265266c6f676f3d706f737467726573716c"><img src="https://camo.githubusercontent.com/24e020ff7d4637e37337e3670a1145ae91688b15/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d506f737467726553514c2d3333363739313f7374796c653d666c61742d737175617265266c6f676f3d706f737467726573716c" alt="PostgreSQL" data-canonical-src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&amp;logo=postgresql" style="max-width:100%;"></a></p>
 
-							<a href="https://www.patreon.com/bePatron?u=32135007"><img src="https://i.ya-webdesign.com/images/patreon-link-button-png-2.png" height="60"></a>
+							<a target="_blank" href="https://www.patreon.com/katheesh"><img src="https://i.ya-webdesign.com/images/patreon-link-button-png-2.png" height="60"></a>
 						</div>
 					</div>
 					<div class="col-lg-4">
@@ -122,6 +123,7 @@
 						<h2>
 							Software Engineer <br>& Entrepreneur
 						</h2>
+						<github-button href="https://github.com/katheesh" data-show-count="true" aria-label="Follow @katheesh on GitHub"> katheesh</github-button>
 						<p>
 							“I love to program and have done so for 10,000 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
 						</p>
