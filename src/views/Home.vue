@@ -91,13 +91,13 @@
 				</div>
 				<div class="col-lg-2 col-md-3">
 					<div class="statistics_item">
-						<h3><span class="counter">5</span>+</h3>
+						<h3><span class="counter">8</span>+</h3>
 						<p>Open Source Projects</p>
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-3">
 					<div class="statistics_item">
-						<h3><span class="counter">8</span>+</h3>
+						<h3><span class="counter">14</span>+</h3>
 						<p>Contributing Projects</p>
 					</div>
 				</div>
