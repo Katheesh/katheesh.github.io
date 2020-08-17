@@ -12,7 +12,7 @@
 							<h1 class="text-uppercase">I am KATHEESH</h1>
 							<h5 class="text-uppercase">Software Engineer & Entrepreneur</h5><br>
 							<h6><strong>❤️ Efficiency consists in a resolute mind.</strong></h6> <br>
-							<github-button href="https://github.com/katheesh" data-size="large" data-show-count="true" aria-label="Follow @katheesh on GitHub">katheesh</github-button>
+							<github-button href="https://github.com/katheesh" data-size="large" data-show-count="true" aria-label="Follow @katheesh on GitHub"> </github-button>
 							<div style="margin-top: 30px; margin-bottom: 20px;">
 								<a target="_blank" href="https://opshit.github.io/">Opshit Framework Creator <img alt="npm" src="https://img.shields.io/npm/dt/opshit"></a>
 								<br>
@@ -141,7 +141,7 @@
 					<div class="main_title">
 						<p class="top_text">My Service <span></span></p>
 						<h2>What Service <br>
-							Offer For You </h2>
+							I Offer For You </h2>
 					</div>
 				</div>
 			</div>
