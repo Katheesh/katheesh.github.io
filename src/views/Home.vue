@@ -22,7 +22,9 @@
 							     	<img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/katheesh/visitorinfo"> VisitorInfo Composer Package Collaborator
 							     </a>
 						    </div>
-
+				
+							<Badge/>
+								
 							<div class="social_icons my-5" style="padding: auto;">
 								<a title="Stackoverflow" target="_blank" href="https://stackoverflow.com/story/katheesh">
 									<img src="img/icon/stackoverflow.png">
@@ -39,16 +41,7 @@
 								<a title="Dev Blog" target="_blank" href="https://dev.to/katheesh">
 									<img src="img/icon/dev.png">
 								</a>
-								
-								<!-- <a title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/katheeskumar">
-									<img src="img/icon/linkedin.png">
-								</a>
-								<a title="Instagram" target="_blank" href="https://www.instagram.com/iKatheesh">
-									<img src="img/icon/instagram.png">
-								</a> -->
-							</div> 
-							
-							<Badge/>	
+							</div>
 
 							<a target="_blank" href="https://www.patreon.com/katheesh"><img src="https://i.ya-webdesign.com/images/patreon-link-button-png-2.png" height="60"></a>
 						</div>

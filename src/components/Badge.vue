@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper" style="margin-top: -25px;">
+  <div class="wrapper">
   	<small>Programming Languages</small><br>
 		<img src="https://camo.githubusercontent.com/fcdcfc4195ca1fa838312fd8af0165d69364beac/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d5048502d3845394346463f7374796c653d666c61742d737175617265266c6f676f3d706870" alt="PHP" data-canonical-src="https://img.shields.io/badge/-PHP-8E9CFF?style=flat-square&amp;logo=php" >
 		<img src="https://camo.githubusercontent.com/2ffad501465f420cc4a5d956c6745d611fc569cf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c61726176656c2d7265643f7374796c653d666c61742d737175617265266c6f676f3d6c61726176656c" alt="Laravel" data-canonical-src="https://img.shields.io/badge/-Laravel-red?style=flat-square&amp;logo=laravel" >
