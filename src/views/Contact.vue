@@ -59,7 +59,7 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
-              <h3><a href="tel:454545654">+94 (77) 631 2777</a></h3>
+              <h3><a href="tel:454545654">+94 (77) 743 7177</a></h3>
               <p>Mon to Fri 8am to 4pm</p>
             </div>
           </div>
