@@ -13,7 +13,7 @@
 							<h5 class="text-uppercase">Software Engineer & Entrepreneur</h5><br>
 							<h6><strong>❤️ Efficiency consists in a resolute mind.</strong></h6>
 							<div style="margin-top: 20px;">
-								<a target="_blank" href="https://opshit.github.io/"><img alt="npm" src="https://img.shields.io/npm/dt/opshit"> Opshit Framework Creator</a>
+								<a target="_blank" href="https://kasfy.js.org/"><img alt="npm" src="https://img.shields.io/npm/dt/kasfy"> Kasfy Framework Creator</a>
 								<br>
 							    <a target="_blank" href="https://www.npmjs.com/package/vue-mailer">
 							    	 <img alt="npm" src="https://img.shields.io/npm/dt/vue-mailer"> npm mailer Package Collaborator 
@@ -102,6 +102,7 @@
 							Software Engineer <br>& Entrepreneur
 						</h2>
 						<github-button href="https://github.com/katheesh" data-show-count="true" aria-label="Follow @katheesh on GitHub"> katheesh</github-button>
+						<br>
 						<p>
 							“I love to program and have done so for 10,000 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
 						</p>
