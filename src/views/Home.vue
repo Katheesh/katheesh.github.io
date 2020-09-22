@@ -191,7 +191,7 @@
 							<img class="img-fluid w-100" src="img/portfolio/back01.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
-								<h4><a href="https://battiwestzone.lk">Back End Development for Zonal Education Office</a></h4>
+								<h4><a href="https://battiwestzeo.lk">Back End Development for Zonal Education Office</a></h4>
 								<p>Laravel Development</p>
 							</div>
 						</div>
@@ -202,7 +202,7 @@
 							<img class="img-fluid w-100" src="img/portfolio/pic2.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
-								<h4><a href="https://battiwestzone.lk">Zonal Education Office Website</a></h4>
+								<h4><a href="https://battiwestzeo.lk">Zonal Education Office Website</a></h4>
 								<p>Website, Laravel Development</p>
 							</div>
 						</div>
