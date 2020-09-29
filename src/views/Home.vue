@@ -99,10 +99,10 @@
 					<div class="main_title text-left">
 						<p class="top_text">About me <span></span></p>
 						<h2>
-							Software Engineer <br>& Entrepreneur
+							I'm Katheeskumar
 						</h2>
 						<github-button href="https://github.com/katheesh" data-show-count="true" aria-label="Follow @katheesh on GitHub"> katheesh</github-button>
-						<br>
+						<br><br>
 						<p>
 							“I love to program and have done so for 10,000 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
 						</p>
