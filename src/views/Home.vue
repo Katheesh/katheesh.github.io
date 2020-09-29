@@ -326,7 +326,7 @@ export default {
    name: 'Home', 
     data() {
         return {    
-            url:'https://katheesh.github.io/KATHEESH_CV.pdf'
+            url: location.host+'/KATHEESH_CV.pdf'
         }
     },
     components: {

@@ -144,14 +144,13 @@ export default {
    name: 'About', 
     data() {
         return {    
-            url:'https://katheesh.github.io/KATHEESH_CV.pdf'
+            url:location.host+'/KATHEESH_CV.pdf'
         }
     },
     components: {
         Footer
     },
     methods: {
-
     forceFileDownload(response){
       const url = window.URL.createObjectURL(new Blob([response.data]))
       const link = document.createElement('a')
