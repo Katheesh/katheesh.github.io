@@ -30,10 +30,10 @@
 					<div class="main_title text-left">
 						<p class="top_text">About me <span></span></p>
 						<h2>
-							Software Engineer 👨‍💻 <br>& Entrepreneur
+							I'm Katheeskumar <small>(Software Engineer 👨‍💻)</small>
 						</h2>
 						<p>
-							“I love to program and have done so for 10,000 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”
+							“I love to computer program and have done so for approximately 8,760 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”
             </p>
             <p>
                 “I liked computer games as a kid, and wanted to make my own. I heard computers are a good career too, so I went to college in Information Technology. Once I was there I realized writing operating systems was what I like the best. I like the challenge of it, and working close to the hardware. I do my best work in very complicated systems, because I’m good at keeping track of many details and making few mistakes. I want to do this sort of work moving forward, especially as long as I get to work on something lots of people will use!”
@@ -144,7 +144,7 @@ export default {
    name: 'About', 
     data() {
         return {    
-            url:'https://katheesh.gitleaf.com/CV-Katheeskumar.docx'
+            url:'https://katheesh.github.io/KATHEESH_CV.pdf'
         }
     },
     components: {
@@ -156,7 +156,7 @@ export default {
       const url = window.URL.createObjectURL(new Blob([response.data]))
       const link = document.createElement('a')
       link.href = url
-      link.setAttribute('download', 'Katheeskumar.docx') //or any other extension
+      link.setAttribute('download', 'KATHEESH_CV.pdf') //or any other extension
       document.body.appendChild(link)
       link.click()
     },   

@@ -104,7 +104,7 @@
 						<github-button href="https://github.com/katheesh" data-show-count="true" aria-label="Follow @katheesh on GitHub"> katheesh</github-button>
 						<br><br>
 						<p>
-							“I love to program and have done so for 10,000 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
+							“I love to computer program and have done so for approximately 8,760 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
 						</p>
                         <button class="primary_btn" @click="downloadWithAxios">Download CV with Axios</button>
 					</div>
@@ -326,7 +326,7 @@ export default {
    name: 'Home', 
     data() {
         return {    
-            url:'https://katheesh.gitleaf.com/CV-Katheeskumar.docx'
+            url:'https://katheesh.github.io/KATHEESH_CV.pdf'
         }
     },
     components: {
@@ -340,7 +340,7 @@ export default {
       const url = window.URL.createObjectURL(new Blob([response.data]))
       const link = document.createElement('a')
       link.href = url
-      link.setAttribute('download', 'Katheeskumar.docx') //or any other extension
+      link.setAttribute('download', 'KATHEESH_CV.pdf') //or any other extension
       document.body.appendChild(link)
       link.click()
     },   
