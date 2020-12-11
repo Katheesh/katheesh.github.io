@@ -13,14 +13,7 @@
 							<h5 class="text-uppercase">Software Engineer & Entrepreneur</h5><br>
 							<h6><strong>❤️ Efficiency consists in a resolute mind.</strong></h6>
 							<div style="margin-top: 20px;">
-								<a target="_blank" href="https://kasfy.js.org/"><img alt="npm" src="https://img.shields.io/npm/dt/kasfy"> Kasfy Framework Creator</a>
-								<br>
-							    <a target="_blank" href="https://www.npmjs.com/package/vue-mailer">
-							    	 <img alt="npm" src="https://img.shields.io/npm/dt/vue-mailer"> npm mailer Package Collaborator 
-							     </a><br>
-							     <a target="_blank" href="https://packagist.org/packages/katheesh/visitorinfo">
-							     	<img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/katheesh/visitorinfo"> VisitorInfo Composer Package Collaborator
-							     </a>
+								<a target="_blank" href="https://kasfy.js.org/"><img alt="npm" src="https://img.shields.io/npm/dt/kasfy"> Creator of Kasfy Framework</a>
 						    </div>
 				
 							<Badge/>
@@ -101,8 +94,15 @@
 						<h2>
 							I'm Katheeskumar
 						</h2>
+					    <a target="_blank" href="https://www.npmjs.com/package/npm-mailer">
+					    	 <img alt="npm" src="https://img.shields.io/npm/dt/npm-mailer"> npm mailer Package Collaborator 
+					     </a><br>
+					     <a target="_blank" href="https://packagist.org/packages/katheesh/visitorinfo">
+					     	<img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/katheesh/visitorinfo"> VisitorInfo Composer Package Collaborator
+					     </a>
 						<github-button href="https://github.com/katheesh" data-show-count="true" aria-label="Follow @katheesh on GitHub"> katheesh</github-button>
 						<br><br>
+
 						<p>
 							“I love to computer program and have done so for approximately 8,760 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
 						</p>
@@ -210,33 +210,11 @@
 
 					<div class="col-lg-4 col-md-6 all front">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/pic3.png" alt="">
-							<div class="overlay"></div>
-							<div class="short_info">
-								<h4><a href="https://btkjs.edu.lk">Junior School Web Application</a></h4>
-								<p>Website, Laravel Development</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 all front">
-						<div class="single_portfolio">
 							<img class="img-fluid w-100" src="img/portfolio/pic4.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://learn.scinav.org">Science Navigators Quiz Application</a></h4>
 								<p>Website, Laravel Development</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 all back">
-						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/back02.png" alt="">
-							<div class="overlay"></div>
-							<div class="short_info">
-								<h4><a href="https://btkjs.edu.lk">Back End Development for Junior School</a></h4>
-								<p>Laravel Development</p>
 							</div>
 						</div>
 					</div>
