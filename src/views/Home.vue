@@ -8,7 +8,7 @@
 				<div class="row align-items-center justify-content-between">
 					<div class="col-lg-6">
 						<div class="banner_content">
-							<h3 style="margin-top: 60px; margin-bottom: -20px;">Hey There !</h3>
+							<h3>Hey There !</h3>
 							<h1 class="text-uppercase">I am KATHEESH</h1>
 							<h5 class="text-uppercase">Software Engineer & Entrepreneur</h5><br>
 							<h6><strong>❤️ Efficiency consists in a resolute mind.</strong></h6>
@@ -292,6 +292,24 @@
 	
   </div>
 </template>
+
+<style scoped>
+
+@media (min-width:600px)  { 
+	.banner_content {
+		margin-top: 0; 
+		margin-bottom: -20px;
+	}
+}
+
+@media (min-width:1025px) { 
+	.banner_content {
+		margin-top: 100px; 
+		margin-bottom: -20px;
+	}
+}
+
+</style>
 
 <script>
 
