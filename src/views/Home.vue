@@ -8,7 +8,7 @@
 				<div class="row align-items-center justify-content-between">
 					<div class="col-lg-6">
 						<div class="banner_content">
-							<h3 style="margin-top: 40px; margin-bottom: -20px;">Hey There !</h3>
+							<h3 style="margin-top: 60px; margin-bottom: -20px;">Hey There !</h3>
 							<h1 class="text-uppercase">I am KATHEESH</h1>
 							<h5 class="text-uppercase">Software Engineer & Entrepreneur</h5><br>
 							<h6><strong>❤️ Efficiency consists in a resolute mind.</strong></h6>
@@ -41,7 +41,7 @@
 					</div>
 					<div class="col-lg-4">
 						<div class="home_right_img">
-							<img class="img-fluid" src="img/banner/home-right.png">
+							<img class="img-fluid" src="img/banner/home-right.webp">
 						</div>
 
 					</div>
