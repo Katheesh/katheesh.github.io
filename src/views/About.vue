@@ -63,9 +63,9 @@
                                                 <div class="resume-row">
                                                    <h6 class="resume-type">HIGHER NATIONAL DIPLOMA IN INFORMATION TECHNOLOGY</h6>
                                                    <p class="resume-study" style="color: black;">Advance Technological Institute, Batticaloa, Sri Lanka</p>
-                                                   <p class="resume-date text-primary">April 2018 - Present</p>
+                                                   <p class="resume-date text-primary">April 2018 - October 2020</p>
                                                    <p class="resume-text" style="color: black;">
-                                                      2 Years + 6 month training
+                                                      2 Years
                                                    </p>
                                                 </div><br>
                                                 <div class="resume-row">
@@ -96,16 +96,24 @@
                                           <div class="resume-content">
                                              <div class="resume-inner">
                                                 <div class="resume-row">
+                                                   <h6 class="resume-type">DEVELOPER TRACK TRAINEE</h6>
+                                                   <p class="resume-study" style="color: black;">Zonal Education Office Batticaloa West, Kurinchamunai, Batticaloa, Sri Lanka</p>
+                                                   <p class="resume-date text-primary">November 2020 - May 2021</p>
+                                                   <p class="resume-text" style="color: black;">
+                                                      I work with more technologies such as Laravel, Tailwind CSS, Livewire.
+                                                   </p><br>
+                                                </div>
+                                                <div class="resume-row">
                                                    <h6 class="resume-type">WEB DEVELOPER (LARAVEL)</h6>
                                                    <p class="resume-study" style="color: black;">Balanita (pvt) Ltd, #273, 1/1, Galle Road, Mt.Lavinia, Sri Lanka</p>
                                                    <p class="resume-date text-primary">March 2017 - April 2019</p>
                                                    <p class="resume-text" style="color: black;">
-                                                      In this work to know diffrent technologies and frameworks. Like that Laravel, Angular, VueJs, and Bootstrap.
+                                                      In this work, I know diffrent technologies and frameworks. Like that Laravel, VueJs, and Bootstrap.
                                                    </p>
                                                 </div>
                                                 <div class="resume-row">
-                                                   <h6 class="resume-type">DATA ENTRY OPERATOR</h6>
-                                                   <p class="resume-study" style="color: black;">West Zonal Education Office, Kurinchamunai, Batticaloa, Sri Lanka</p>
+                                                   <h6 class="resume-type">DATA ENTRY OPERATOR TRAINEE</h6>
+                                                   <p class="resume-study" style="color: black;">Zonal Education Office Batticaloa West, Kurinchamunai, Batticaloa, Sri Lanka</p>
                                                    <p class="resume-date text-primary">July 2015 - Jan 2016</p>
                                                    <p class="resume-text" style="color: black;">
                                                        I got expreance on microsoft office package in this six month training. This training for ICT Technian Course completed by VTC Kallady.
