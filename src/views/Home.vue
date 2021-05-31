@@ -246,7 +246,7 @@
 							<img class="img-fluid w-100" src="img/portfolio/pack01.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
-								<h4><a href="https://www.npmjs.com/package/vue-mailer">VUE-Mailer Open source Package</a></h4>
+								<h4><a href="https://www.npmjs.com/package/npm-mailer">VUE-Mailer Open source Package</a></h4>
 								<p>NPM Javascript Development</p>
 							</div>
 						</div>
