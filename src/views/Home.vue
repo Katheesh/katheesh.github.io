@@ -322,7 +322,7 @@ export default {
    name: 'Home', 
     data() {
         return {    
-            url: location.host+'/katheesh_cv_06_2021.pdf'
+            url: 'https://katheesh.js.org/katheesh_cv_06_2021.pdf'
         }
     },
     components: {
