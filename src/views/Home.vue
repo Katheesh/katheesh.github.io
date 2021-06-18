@@ -322,7 +322,7 @@ export default {
    name: 'Home', 
     data() {
         return {    
-            url: location.host+'/KATHEESH_CV.pdf'
+            url: location.host+'/katheesh_cv_06_2021.pdf'
         }
     },
     components: {
@@ -336,7 +336,7 @@ export default {
       const url = window.URL.createObjectURL(new Blob([response.data]))
       const link = document.createElement('a')
       link.href = url
-      link.setAttribute('download', 'KATHEESH_CV.pdf') //or any other extension
+      link.setAttribute('download', 'katheesh_cv_06_2021.pdf') //or any other extension
       document.body.appendChild(link)
       link.click()
     },   
