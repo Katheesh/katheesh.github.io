@@ -38,7 +38,8 @@
             <p>
                 “I liked computer games as a kid, and wanted to make my own. I heard computers are a good career too, so I went to college in Information Technology. Once I was there I realized writing operating systems was what I like the best. I like the challenge of it, and working close to the hardware. I do my best work in very complicated systems, because I’m good at keeping track of many details and making few mistakes. I want to do this sort of work moving forward, especially as long as I get to work on something lots of people will use!”
 						</p>
-						<button class="primary_btn" @click="downloadWithAxios">Download CV</button>
+						<!-- <button class="primary_btn" @click="downloadWithAxios">Download CV</button> -->
+						<a class="primary_btn" target="_blank" href="https://katheesh.js.org/katheesh_cv_06_2021.pdf">Download CV</a>
 					</div>
 				</div>
 

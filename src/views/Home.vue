@@ -106,7 +106,8 @@
 						<p>
 							“I love to computer program and have done so for approximately 8,760 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
 						</p>
-                        <button class="primary_btn" @click="downloadWithAxios">Download CV with Axios</button>
+                        <!-- <button class="primary_btn" @click="downloadWithAxios">Download CV with Axios</button> -->
+						<a class="primary_btn" target="_blank" href="https://katheesh.js.org/katheesh_cv_06_2021.pdf">Download CV</a>
 					</div>
 				</div>
 			</div>
