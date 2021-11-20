@@ -7,11 +7,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: vuepress-deploy
+    - name: deploy to katheesh.js.org
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: katheesh/katheesh.js
         TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: npm update && echo "katheesh.js.org" >> public/CNAME &&  npm run build
+        BUILD_SCRIPT: npm install && echo "katheesh.js.org" >> public/CNAME &&  npm run build
         BUILD_DIR: dist/
