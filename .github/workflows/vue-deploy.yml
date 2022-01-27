@@ -3,11 +3,14 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          node-version: [14.x]
     steps:
     - name: Checkout
       uses: actions/checkout@master
       with:
-        node-version: '14'
+        node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
@@ -17,4 +20,3 @@ jobs:
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: npm install && npm run build
         BUILD_DIR: dist/
-        
