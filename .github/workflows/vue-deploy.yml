@@ -3,13 +3,12 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-      with:
-        node-version: '14'
-        cache: 'npm'
     steps:
     - name: Checkout
       uses: actions/checkout@master
-
+      with:
+        node-version: '14'
+        cache: 'npm'
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
