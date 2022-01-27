@@ -35,8 +35,6 @@
 									<img src="img/icon/dev.png">
 								</a>
 							</div>
-
-							<a target="_blank" href="https://www.patreon.com/katheesh"><img src="https://i.ya-webdesign.com/images/patreon-link-button-png-2.png" height="60"></a>
 						</div>
 					</div>
 					<div class="col-lg-4">
@@ -116,6 +114,7 @@
 	<!--================ End About Us Area =================-->
 
 	<!--================ Start Features Area =================-->
+	<!--
 	<section class="services_area">
 		<div class="container" data-aos="fade-up">
 			<div class="row">
@@ -133,8 +132,7 @@
 					<div class="service_item">
 						<img src="img/services/s1.png" alt="">
 						<h4>IOT Development</h4>
-						<p></p>
-						<!-- <a href="#" class="primary_btn2 mt-35">Learn More</a> -->
+						<p></p> 
 					</div>
 				</div>
 
@@ -142,8 +140,7 @@
 					<div class="service_item">
 						<img src="img/services/s2.png" alt="">
 						<h4>Mobile & PC App Development</h4>
-						<p></p>
-						<!-- <a href="#" class="primary_btn2 mt-35">Learn More</a> -->
+						<p></p> 
 					</div>
 				</div>
 
@@ -151,13 +148,13 @@
 					<div class="service_item">
 						<img src="img/services/s3.png" alt="">
 						<h4>Web App Development</h4>
-						<p></p>
-						<!-- <a href="#" class="primary_btn2 mt-35">Learn More</a> -->
+						<p></p> 
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	-->
 	<!--================ End Features Area =================-->
 
 	<!--================ Start Portfolio Area =================-->

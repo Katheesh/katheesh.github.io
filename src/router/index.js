@@ -33,6 +33,15 @@ const routes = [
     }
   },
   {
+    path: "/quotes",
+    name: "Quotes",
+    component: () =>
+      import("../views/Quotes.vue"),
+    meta: {
+      title: 'Quotes - KATHEESH\'s official Website',
+    }
+  },
+  {
     path: "/contact",
     name: "Contact",
     component: () =>
