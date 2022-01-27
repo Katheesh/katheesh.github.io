@@ -1,14 +1,14 @@
-name: Mirroring to GitLab
+# name: Mirroring to GitLab
 
-on: [push, delete]
+# on: [push, delete]
 
-jobs:
-  to_gitlab:
-    runs-on: ubuntu-18.04
-    steps:
-        - uses: actions/checkout@v1
-        - uses: spyoungtech/mirror-action@master
-          with:
-            REMOTE: 'https://gitlab.com/katheesh/katheesh.gitlab.io.git'
-            GIT_USERNAME: katheesh
-            GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
+# jobs:
+#   to_gitlab:
+#     runs-on: ubuntu-18.04
+#     steps:
+#         - uses: actions/checkout@v1
+#         - uses: spyoungtech/mirror-action@master
+#           with:
+#             REMOTE: 'https://gitlab.com/katheesh/katheesh.gitlab.io.git'
+#             GIT_USERNAME: katheesh
+#             GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
