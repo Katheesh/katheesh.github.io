@@ -1,31 +1,20 @@
-# name: Build and Deploy
-# on: [push]
-# jobs:
-#   build-and-deploy:
-#     runs-on: ubuntu-latest
-#     steps:
-#     - name: Checkout
-#       uses: actions/checkout@master
-
-#     - name: vuepress-deploy
-#       uses: jenkey2011/vuepress-deploy@master
-#       env:
-#         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-#         TARGET_REPO: katheesh/katheesh.github.io
-#         TARGET_BRANCH: gh-pages
-#         BUILD_SCRIPT: npm install && npm run build
-#         BUILD_DIR: dist/
-name: Build Vue
+name: Build and Deploy
 on: [push]
 jobs:
-  build_vue:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    name: Build Vue
-    steps:
-    - uses: actions/checkout@v2
-    - id: Build-Vue
-      uses: xRealNeon/VuePagesAction@1.0.1
       with:
-        username: 'katheesh'
-        reponame: 'katheesh.github.io'
-        token: ${{ secrets.ACCESS_TOKEN }}
+        node-version: '14'
+        cache: 'npm'
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: katheesh/katheesh.github.io
+        TARGET_BRANCH: gh-pages
+        BUILD_SCRIPT: npm install && npm run build
+        BUILD_DIR: dist/
