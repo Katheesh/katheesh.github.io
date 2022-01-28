@@ -21,18 +21,23 @@
 #         BUILD_SCRIPT: npm install && npm run build
 #         BUILD_DIR: dist/
 
-
-name:  Build and Deploy
+name: Build and Deploy
 on: [push]
 jobs:
-  build_vue:
+  build-and-deploy:
+    concurrency: ci-${{ secrets.ACCESS_TOKEN }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
-    name: Build Vue
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Vue
-      uses: xRealNeon/VuePagesAction@1.0.1
-      with:
-        username: 'katheesh'
-        reponame: 'katheesh.github.io'
-        token: ${{ secrets.ACCESS_TOKEN }}
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
