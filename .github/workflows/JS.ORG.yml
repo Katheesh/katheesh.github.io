@@ -1,17 +1,17 @@
-# name: JS.ORG Build and Deploy
-# on: [push]
-# jobs:
-#   build-and-deploy:
-#     runs-on: ubuntu-latest
-#     steps:
-#     - name: Checkout
-#       uses: actions/checkout@master
+name: JS.ORG Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
 
-#     - name: deploy to katheesh.js.org
-#       uses: jenkey2011/vuepress-deploy@master
-#       env:
-#         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-#         TARGET_REPO: katheesh/katheesh.js
-#         TARGET_BRANCH: gh-pages
-#         BUILD_SCRIPT: npm install && echo "katheesh.js.org" >> public/CNAME &&  npm run build
-#         BUILD_DIR: dist/
+    - name: deploy to katheesh.js.org
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: katheesh/katheesh.js
+        TARGET_BRANCH: gh-pages
+        BUILD_SCRIPT: npm install && echo "katheesh.js.org" >> public/CNAME &&  npm run build
+        BUILD_DIR: dist/
