@@ -23,10 +23,10 @@
               </div>
             </div>
             <div class="footer_social mt-lg-0 mt-4">
-              <a target="_blank" href="https://www.facebook.com/iKatheesh">FB</a>
-              <a target="_blank" href="https://www.twitter.com/iKatheesh">TW</a>
-              <a target="_blank" href="https://www.instagram.com/iKatheesh">INST</a>
-              <a target="_blank" href="https://www.linkedin.com/katheeskumar">LIN</a>
+              <a target="_blank" href="https://www.facebook.com/iKatheesh"><i class="fab fa-facebook-f social-btn"></i></a>
+              <a target="_blank" href="https://www.twitter.com/iKatheesh"><i class="fab fa-twitter social-btn"></i></a>
+              <a target="_blank" href="https://www.instagram.com/iKatheesh"><i class="fab fa-instagram social-btn"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/katheeskumar"><i class="fab fa-linkedin social-btn"></i></a>
             </div>
           </div>
         </div>
