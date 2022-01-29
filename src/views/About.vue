@@ -97,6 +97,14 @@
                                           <div class="resume-content">
                                              <div class="resume-inner">
                                                 <div class="resume-row">
+                                                   <h6 class="resume-type">SOFTWARE ENGINEER</h6>
+                                                   <p class="resume-study" style="color: black;">HeroApps, Business Center, Dubai World Central, UAE</p>
+                                                   <p class="resume-date text-primary">July 2021 - Present</p>
+                                                   <p class="resume-text" style="color: black;">
+                                                      I working with intergrated systems like IoT, WEB, Mobile...
+                                                   </p><br>
+                                                </div>
+                                                <div class="resume-row">
                                                    <h6 class="resume-type">DEVELOPER TRACK TRAINEE</h6>
                                                    <p class="resume-study" style="color: black;">Zonal Education Office Batticaloa West, Kurinchamunai, Batticaloa, Sri Lanka</p>
                                                    <p class="resume-date text-primary">November 2020 - May 2021</p>

@@ -8,16 +8,17 @@
 				<div class="row align-items-center justify-content-between">
 					<div class="col-lg-6">
 						<div class="banner_content">
-							<h3>Hey There !</h3>
+							<!-- <h3>Hey There !</h3> -->
 							<h1 class="text-uppercase">I am KATHEESH</h1>
-							<h5 class="text-uppercase">Software Engineer & Entrepreneur</h5><br>
+							<h5 class="text-uppercase">Software Engineer</h5><br>
 							<h6><strong>❤️ Efficiency consists in a resolute mind.</strong></h6>
-							<div style="margin-top: 20px;">
-								<a target="_blank" href="https://kasfy.js.org/"><img alt="npm" src="https://img.shields.io/npm/dt/kasfy"> Creator of Kasfy Framework</a>
-						    </div>
+							
 				
 							<Badge/>
-								
+							<div style="margin-top: 20px;">
+								<a target="_blank" href="https://kasfy.js.org/"><img alt="npm" src="https://img.shields.io/npm/dt/kasfy"> &nbsp; Creator of Kasfy Framework</a>
+						    </div>
+
 							<div class="social_icons my-5" style="padding: auto;">
 								<a title="Stackoverflow" target="_blank" href="https://stackoverflow.com/story/katheesh">
 									<img src="/img/icon/stackoverflow.png">
@@ -55,7 +56,7 @@
 			<div class="row justify-content-lg-start justify-content-center" data-aos="fade-up">
 				<div class="col-lg-2 col-md-3">
 					<div class="statistics_item">
-						<h3><span class="counter">3</span>+</h3>
+						<h3><span class="counter">4</span>+</h3>
 						<p>Years Experience Working</p>
 					</div>
 				</div>
@@ -67,7 +68,7 @@
 				</div>
 				<div class="col-lg-2 col-md-3">
 					<div class="statistics_item">
-						<h3><span class="counter">14</span>+</h3>
+						<h3><span class="counter">16</span>+</h3>
 						<p>Contributing Projects</p>
 					</div>
 				</div>
@@ -92,15 +93,16 @@
 						<h2>
 							I'm Katheeskumar
 						</h2>
-					    <a target="_blank" href="https://www.npmjs.com/package/npm-mailer">
+					    
+						<p>
+							“I love to computer program and have done so for approximately 12,500 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
+						</p>
+						<a target="_blank" href="https://www.npmjs.com/package/npm-mailer">
 					    	 <img alt="npm" src="https://img.shields.io/npm/dt/npm-mailer"> npm mailer Package Collaborator 
 					    </a><br>
 					    <a target="_blank" href="https://packagist.org/packages/katheesh/visitorinfo">
 					     	<img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/katheesh/visitorinfo"> VisitorInfo Composer Package Collaborator
 					    </a><br>
-						<p>
-							“I love to computer program and have done so for approximately 8,760 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
-						</p>
                         <!-- <button class="primary_btn" @click="downloadWithAxios">Download CV with Axios</button> -->
 						<a class="primary_btn" target="_blank" href="https://katheesh.js.org/katheesh_cv_06_2021.pdf">Download CV</a>
 					</div>
