@@ -20,26 +20,26 @@
 								
 							<div class="social_icons my-5" style="padding: auto;">
 								<a title="Stackoverflow" target="_blank" href="https://stackoverflow.com/story/katheesh">
-									<img src="img/icon/stackoverflow.png">
+									<img src="/img/icon/stackoverflow.png">
 								</a>
 								<a title="GitLab" target="_blank" href="https://gitlab.com/katheesh">
-									<img src="img/icon/gitlab.png">
+									<img src="/img/icon/gitlab.png">
 								</a>
 								<a title="GitHub" target="_blank" href="https://github.com/katheesh">
-									<img src="img/icon/github.png">
+									<img src="/img/icon/github.png">
 								</a>
 								<a title="CodePen" target="_blank" href="https://codepen.io/katheesh">
-									<img src="img/icon/codepen.png">
+									<img src="/img/icon/codepen.png">
 								</a>
 								<a title="Dev Blog" target="_blank" href="https://dev.to/katheesh">
-									<img src="img/icon/dev.png">
+									<img src="/img/icon/dev.png">
 								</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4">
 						<div class="home_right_img">
-							<img class="img-fluid" src="img/banner/home-right.webp">
+							<img class="img-fluid" src="/img/banner/home-right.webp">
 						</div>
 
 					</div>
@@ -82,7 +82,7 @@
 			<div class="row justify-content-start align-items-center" data-aos="fade-up">
 				<div class="col-lg-5">
 					<div class="about_img">
-						<img class="" src="img/about-us.png" alt="">
+						<img class="" src="/img/about-us.png" alt="">
 					</div>
 				</div>
 
@@ -94,13 +94,10 @@
 						</h2>
 					    <a target="_blank" href="https://www.npmjs.com/package/npm-mailer">
 					    	 <img alt="npm" src="https://img.shields.io/npm/dt/npm-mailer"> npm mailer Package Collaborator 
-					     </a><br>
-					     <a target="_blank" href="https://packagist.org/packages/katheesh/visitorinfo">
+					    </a><br>
+					    <a target="_blank" href="https://packagist.org/packages/katheesh/visitorinfo">
 					     	<img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/katheesh/visitorinfo"> VisitorInfo Composer Package Collaborator
-					     </a>
-						<github-button href="https://github.com/katheesh" data-show-count="true" aria-label="Follow @katheesh on GitHub"> katheesh</github-button>
-						<br><br>
-
+					    </a><br>
 						<p>
 							“I love to computer program and have done so for approximately 8,760 hours over the past four years. I’m great at knowing the right algorithm for a problem because I read computer science literature constantly. I like Algorithms based problems. I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems, and I think you’ve got some here that I can help solve.”  <router-link to="/about"><a>more ...</a></router-link>
 						</p>
@@ -186,7 +183,7 @@
 
 					<div class="col-lg-4 col-md-6 all back popular">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/back01.png" alt="">
+							<img class="img-fluid w-100" src="/img/portfolio/back01.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://battiwestzeo.lk">Back End Development for Zonal Education Office</a></h4>
@@ -197,7 +194,7 @@
 
 					<div class="col-lg-4 col-md-6 all front">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/pic2.png" alt="">
+							<img class="img-fluid w-100" src="/img/portfolio/pic2.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://battiwestzeo.lk">Zonal Education Office Website</a></h4>
@@ -208,7 +205,7 @@
 
 					<div class="col-lg-4 col-md-6 all front">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/pic4.png" alt="">
+							<img class="img-fluid w-100" src="/img/portfolio/pic4.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://learn.scinav.org">Science Navigators Quiz Application</a></h4>
@@ -219,7 +216,7 @@
 
 					<div class="col-lg-4 col-md-6 all back">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/back03.png" alt="">
+							<img class="img-fluid w-100" src="/img/portfolio/back03.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://learn.scinav.org">Quiz App Development for Science Navigators</a></h4>
@@ -230,7 +227,7 @@
 
 					<div class="col-lg-4 col-md-6 all desktop">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/pic1.png" alt="">
+							<img class="img-fluid w-100" src="/img/portfolio/pic1.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://bell.gitleaf.com">The Smart School Bell System</a></h4>
@@ -241,7 +238,7 @@
 
 					<div class="col-lg-4 col-md-6 all package popular">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/pack01.png" alt="">
+							<img class="img-fluid w-100" src="/img/portfolio/pack01.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://www.npmjs.com/package/npm-mailer">VUE-Mailer Open source Package</a></h4>
@@ -252,7 +249,7 @@
 
 					<div class="col-lg-4 col-md-6 all package popular">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/pack02.png" alt="">
+							<img class="img-fluid w-100" src="/img/portfolio/pack02.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://packagist.org/packages/katheesh/visitorinfo">visitorinfo Open source Package</a></h4>
@@ -262,7 +259,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 all desktop front">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/desk1.png" alt="">
+							<img class="img-fluid w-100" src="/img/portfolio/desk1.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://aulanka.com">This premium application Developed for tamil Students career evaluation </a></h4>
@@ -272,7 +269,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 all desktop front">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/portfolio/desk2.png" alt="">
+							<img class="img-fluid w-100" src="/img/portfolio/desk2.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a href="https://github.com/Katheesh/passwordManager">This open source application Developed for store secret credintials </a></h4>
@@ -311,10 +308,9 @@
 
 <script>
 
-import Footer from '@/components/Footer.vue'
-import Badge from '@/components/Badge.vue'
+import Footer from '../components/Footer.vue'
+import Badge from '../components/Badge.vue'
 import axios from 'axios';
-import GithubButton from 'vue-github-button'
 
 export default {
    name: 'Home', 
@@ -325,8 +321,7 @@ export default {
     },
     components: {
         Footer,
-        Badge,
-        GithubButton
+        Badge
     },
     methods: {
 

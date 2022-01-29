@@ -7,7 +7,7 @@
           <div class="footer_top flex-column">
             <div class="footer_logo">
               <a href="#">
-                <img src="img/logo2.png" alt="">
+                <img src="/img/logo2.png" alt="">
               </a>
               <div class="d-lg-block d-none">
                 <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
@@ -23,17 +23,17 @@
               </div>
             </div>
             <div class="footer_social mt-lg-0 mt-4">
-              <a target="_blank" href="https://www.facebook.com/iKatheesh"><i class="fab fa-facebook-f social-btn"></i></a>
-              <a target="_blank" href="https://www.twitter.com/iKatheesh"><i class="fab fa-twitter social-btn"></i></a>
-              <a target="_blank" href="https://www.instagram.com/iKatheesh"><i class="fab fa-instagram social-btn"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/katheeskumar"><i class="fab fa-linkedin social-btn"></i></a>
+              <a target="_blank" href="https://www.facebook.com/iKatheesh">FB</a>
+              <a target="_blank" href="https://www.twitter.com/iKatheesh">TW</a>
+              <a target="_blank" href="https://www.instagram.com/iKatheesh">INST</a>
+              <a target="_blank" href="https://www.linkedin.com/katheeskumar">LIN</a>
             </div>
           </div>
         </div>
       </div>
       <div class="row footer_bottom justify-content-center">
         <p class="col-lg-8 col-sm-12 footer-text">
-          Katheesh &copy; 2020 All rights reserved.
+          Katheesh &copy; {{year}} All rights reserved.
         </p>
       </div>
     </div>
@@ -46,3 +46,21 @@
     margin-top: 15px;
   }
 </style>
+
+<script>
+
+export default {
+  name: 'Home',
+  data() {
+    return {
+      year: ''
+    };
+  },
+  mounted() {
+    this.year = new Date().getFullYear();
+  },
+  methods: {
+
+  }
+}
+</script>

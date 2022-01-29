@@ -22,17 +22,9 @@
             text-align: center;
             background: #ffffff;
             border-radius: 36px;
-            color: $title-color;
+            color: black;
             font-size: 16px;
             margin-right: 12px;
-            @include transition();
-            &:last-child {
-                margin-right: 0px;
-            }
-            &:hover {
-                @extend .gradient-bg;
-                color: #ffffff;
-            }
         }
     }
     .footer_bottom {

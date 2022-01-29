@@ -41,7 +41,7 @@
 
 					<div class="col-lg-3 col-md-6 all linkedin">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/quotes/about_sunday.png" alt="">
+							<img class="img-fluid w-100" src="/img/quotes/about_sunday.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a target="_blank" href="/img/quotes/about_sunday.png">Click to open</a></h4>
@@ -50,7 +50,7 @@
 					</div>
 					<div class="col-lg-3 col-md-6 all linkedin">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/quotes/lose.png" alt="">
+							<img class="img-fluid w-100" src="/img/quotes/lose.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a target="_blank" href="/img/quotes/lose.png">Click to open</a></h4>
@@ -59,7 +59,7 @@
 					</div>
 					<div class="col-lg-3 col-md-6 all linkedin">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/quotes/revers.png" alt="">
+							<img class="img-fluid w-100" src="/img/quotes/revers.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a target="_blank" href="/img/quotes/revers.png">Click to open</a></h4>
@@ -68,7 +68,7 @@
 					</div>
 					<div class="col-lg-3 col-md-6 all linkedin">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/quotes/silent.png" alt="">
+							<img class="img-fluid w-100" src="/img/quotes/silent.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a target="_blank" href="/img/quotes/silent.png">Click to open</a></h4>
@@ -77,7 +77,7 @@
 					</div>
 					<div class="col-lg-3 col-md-6 all linkedin">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/quotes/sleep.png" alt="">
+							<img class="img-fluid w-100" src="/img/quotes/sleep.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a target="_blank" href="/img/quotes/sleep.png">Click to open</a></h4>
@@ -86,7 +86,7 @@
 					</div>
 					<div class="col-lg-3 col-md-6 all linkedin">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/quotes/spenttime.png" alt="">
+							<img class="img-fluid w-100" src="/img/quotes/spenttime.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a target="_blank" href="/img/quotes/spenttime.png">Click to open</a></h4>
@@ -95,7 +95,7 @@
 					</div>
 					<div class="col-lg-3 col-md-6 all linkedin">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/quotes/stop learning.png" alt="">
+							<img class="img-fluid w-100" src="/img/quotes/stoplearning.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a target="_blank" href="/img/quotes/stop learning.png">Click to open</a></h4>
@@ -104,7 +104,7 @@
 					</div>
 					<div class="col-lg-3 col-md-6 all linkedin">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/quotes/stop waiting.png" alt="">
+							<img class="img-fluid w-100" src="/img/quotes/stopwaiting.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a target="_blank" href="/img/quotes/stop waiting.png">Click to open</a></h4>
@@ -113,7 +113,7 @@
 					</div>
 					<div class="col-lg-3 col-md-6 all linkedin">
 						<div class="single_portfolio">
-							<img class="img-fluid w-100" src="img/quotes/thinking did.png" alt="">
+							<img class="img-fluid w-100" src="/img/quotes/thinkingdid.png" alt="">
 							<div class="overlay"></div>
 							<div class="short_info">
 								<h4><a target="_blank" href="/img/quotes/thinking did.png">Click to open</a></h4>
@@ -132,3 +132,18 @@
 
   </div>
 </template>
+
+<script>
+
+import Footer from '../components/Footer.vue'
+
+export default {
+    name: 'About', 
+    components: {
+        Footer
+    },
+    methods: {
+
+  }
+}
+</script>
