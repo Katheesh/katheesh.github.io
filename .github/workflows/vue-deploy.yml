@@ -21,18 +21,28 @@
 #         BUILD_SCRIPT: npm install && npm run build
 #         BUILD_DIR: dist/
 
+name: Build and Deploy
+on:
+  push:
+    branches: [ master ]
 
-name:  Build and Deploy
-on: [push]
 jobs:
-  build_vue:
+  build:
     runs-on: ubuntu-latest
-    name: Build Vue
+    strategy:
+      matrix:
+        node-version: [14.x]
+
     steps:
     - uses: actions/checkout@v2
-    - id: Build-Vue
-      uses: xRealNeon/VuePagesAction@1.0.1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
       with:
-        username: 'katheesh'
-        reponame: 'katheesh.github.io'
-        token: ${{ secrets.ACCESS_TOKEN }}
+        node-version: ${{ matrix.node-version }}
+    - run: sudo npm install
+    - run: sudo npm run build
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.7
+      with:
+        branch: gh-pages 
+        folder: dist 
