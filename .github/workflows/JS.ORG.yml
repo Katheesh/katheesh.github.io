@@ -12,11 +12,11 @@ jobs:
 
     steps:
       name: Checkout
-       - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       name: Running NPM scripts
-        - run: sudo npm install -g @angular/cli
-        - run: npm install && ng build
+      - run: sudo npm install -g @angular/cli
+      - run: npm install && ng build
 
       name: Deploy to GitHub Pages
         if: success()
