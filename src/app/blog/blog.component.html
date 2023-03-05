@@ -1,0 +1,61 @@
+<div class="page-scroll">
+    <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+
+        <!-- Header -->
+        <menubar></menubar>
+        <!-- /Header -->
+
+        <div id="main" class="site-main">
+            <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">
+
+                <div class="page-title">
+                <h1>Blogs</h1>
+                <div class="page-subtitle">
+                    <h4>Knowledge sharing sector</h4>
+                </div>
+                </div>
+
+                <div id="content" class="page-content site-content single-post" role="main">
+
+                <div class="row">
+                    <div class=" col-xs-12 col-sm-12 ">
+
+                    <div class="blog-masonry three-columns clearfix">
+
+                        <div class="item" *ngFor="let item of posts">
+                        <div class="blog-card">
+                            <div class="media-block">
+                            <div class="category">
+                                <a target="_blank" href="{{item.canonical_url}}" title="{{item.title}}">{{item.tags}}</a>
+                            </div>
+                            <a target="_blank" href="{{item.canonical_url}}">
+                                <img src="{{item.social_image}}" alt="{{item.title}}" title="" />
+                                <div class="mask"></div>
+                            </a>
+                            </div>
+                            <div class="post-info">
+                            <div class="post-date">{{item.readable_publish_date}}</div>
+                            <a target="_blank" href="{{item.canonical_url}}">
+                                <h4 class="blog-item-title">{{item.title}}</h4>
+                                <p>{{item.description}}</p>
+                            </a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- <a class="btn btn-primary" href="#">See All Posts</a> -->
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <app-footer></app-footer>
+        <!-- /Footer -->
+      
+    </div>
+</div>

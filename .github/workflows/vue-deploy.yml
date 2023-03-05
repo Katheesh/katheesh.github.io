@@ -39,8 +39,8 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: sudo npm install -g @vue/cli
-    - run: npm install && npm run build
+    - run: sudo npm install -g @angular/cli
+    - run: npm install && ng build
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
