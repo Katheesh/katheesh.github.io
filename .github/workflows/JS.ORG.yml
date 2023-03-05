@@ -1,17 +1,28 @@
 name: JS.ORG Build and Deploy
-on: [push]
+on:
+  push:
+    branches: [ master ]
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
+    strategy:
+      matrix:
+        node-version: [16.x]
 
-    - name: deploy to katheesh.js.org
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: katheesh/katheesh.js
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: npm install && sudo npm install -g @angular/cli && echo "katheesh.js.org" >> public/CNAME &&  ng build
-        BUILD_DIR: dist/
+    steps:
+      name: Checkout
+        uses: actions/checkout@v3
+        name: Running NPM scripts
+        - run: sudo npm install -g @angular/cli
+        - run: npm install && ng build
+
+      name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          repo: katheesh/katheesh.js
+          target_branch: gh-pages
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
