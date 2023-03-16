@@ -20,7 +20,7 @@ jobs:
         dst_repo_name: katheesh.js
         dst_branch: gh-pages
         src_branch: gh-pages
-        src_wiki: true
+        src_wiki: false
         dst_wiki: false
         username: katheesh
         email: katheeskumar@outlook.com
