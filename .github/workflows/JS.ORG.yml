@@ -1,7 +1,7 @@
 # name: Copy
 # on:
 #   push:
-#     branches: [ gh-pages ]
+#     branches: [ master ]
 # jobs:
 #   copy:
 #     runs-on: ubuntu-latest
@@ -38,7 +38,7 @@ jobs:
       env:
         API_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       with:
-        source: '/'
+        source: 'gh-pages'
         target_repo: 'katheesh/katheesh.js'
         target_folder: '/'
         commit_email: 'deply-actions@github.com'
