@@ -1,31 +1,7 @@
-# name: Copy
-# on:
-#   push:
-#     branches: [ master ]
-# jobs:
-#   copy:
-#     runs-on: ubuntu-latest
-#     steps:
-#     - run: echo "katheesh.js.org" >> public/CNAME
-#     - name: Copycat
-#       uses: andstor/copycat-action@v3
-#       with:
-#         personal_token: ${{ secrets.ACCESS_TOKEN }}
-#         src_path: /.
-#         dst_path: /
-#         dst_owner: katheesh
-#         dst_repo_name: katheesh.js
-#         dst_branch: gh-pages
-#         src_branch: gh-pages
-#         src_wiki: true
-#         dst_wiki: false
-#         username: katheesh
-#         email: katheeskumar@outlook.com
-
 name: Copy
-
-on: push
-
+on:
+  push:
+    branches: [ master ]
 jobs:
   copy:
     runs-on: ubuntu-latest
@@ -33,14 +9,18 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Pushes test file
-      uses: aaronbarnaby/deploy-to-subrepo@v1.0.1
-      env:
-        API_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    - run: echo "katheesh.js.org" >> public/CNAME
+    - name: Copycat
+      uses: andstor/copycat-action@v3
       with:
-        source: 'gh-pages'
-        target_repo: 'katheesh/katheesh.js'
-        target_folder: '/'
-        commit_email: 'deply-actions@github.com'
-        commit_name: 'deply-actions'
-        commit_message: 'automatic deply-actions commit'
+        personal_token: ${{ secrets.ACCESS_TOKEN }}
+        src_path: /.
+        dst_path: /
+        dst_owner: katheesh
+        dst_repo_name: katheesh.js
+        dst_branch: gh-pages
+        src_branch: gh-pages
+        src_wiki: true
+        dst_wiki: false
+        username: katheesh
+        email: katheeskumar@outlook.com
