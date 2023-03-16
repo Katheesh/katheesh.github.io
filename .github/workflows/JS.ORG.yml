@@ -9,7 +9,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - run: echo "katheesh.js.org" >> public/CNAME
+    # - run: echo "katheesh.js.org" >> public/CNAME
     - name: Copycat
       uses: andstor/copycat-action@v3
       with:
