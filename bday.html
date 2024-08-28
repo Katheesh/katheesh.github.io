@@ -228,13 +228,9 @@
         birthday.update(delta / 1000);
     })();
 
-    var elem = document.documentElement;
-
-    if (elem.requestFullscreen) {
-        elem.requestFullscreen();
-    } else if (elem.webkitRequestFullscreen) { /* Safari */
-        elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { /* IE11 */
-        elem.msRequestFullscreen();
+    var el = document.documentElement,
+    rfs = el.requestFullscreen;
+    if(typeof rfs!="undefined" && rfs){
+      rfs.call(el);
     }
 </script>
